@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 import random
 from typing import List
 
@@ -18,6 +17,8 @@ def binary_search(arr: List[int], lb: int, ub: int, target: int) -> int:
             return binary_search(arr, lb, mid - 1, target)
     else:
         return -1
+
+        
 
 
 if __name__ == '__main__':
